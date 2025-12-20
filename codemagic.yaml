@@ -31,7 +31,7 @@ workflows:
         script: |
           find . -name "Podfile" -execdir pod install \;
           flutter analyze
-      - name: "Flutter analyze"
+      - name: Flutter analyze
         script: |
       - name: Flutter unit tests
         script: |
