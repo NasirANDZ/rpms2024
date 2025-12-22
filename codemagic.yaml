@@ -33,6 +33,7 @@ workflows:
           flutter analyze
       - name: Flutter analyze
         script: |
+          flutter analyze
       - name: Flutter unit tests
         script: |
           flutter test
